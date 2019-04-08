@@ -1,0 +1,30 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.1.2)
+  - WebViewJavascriptBridge (6.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SVProgressHUD (~> 2.1.2)
+  - WebViewJavascriptBridge (~> 6.0)
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - SVProgressHUD
+    - WebViewJavascriptBridge
+    - YYModel
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: fc54ce01df2564d0aa2e1b0f6901fb6f55db158a
+
+COCOAPODS: 1.6.1

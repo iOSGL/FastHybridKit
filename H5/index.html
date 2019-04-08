@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js调用App本地方法</title>
+    <style>
+        button{
+            height: 44px;
+            width: 100%;
+            background: #98bf21;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        #alert{
+            position: fixed;
+            justify-content: center;
+            align-items: center;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.4);
+        }
+    </style>
+    <script type="text/javascript" src="jssdk.js"></script>
+</head>
+<body>
+    <br>
+    <button id="getToken">获取Token</button>
+    <br><br>
+    <button id="getAppInfo">获取本地信息</button>
+    <br><br>
+    <button id="openH5">打开新的H5页面</button>
+    <br><br>
+    <button id="login">登录</button>
+    <br><br>
+    <button id="UMAnalytics">友盟统计</button>
+    <br><br>
+    <button id="txtCopy">复制</button>
+    <br><br>
+    <button id="dialog">对话框</button>
+    <br><br>
+    <button id="toast">Toast</button>
+    <br><br>
+    <button id="getResource">获取本地资源</button>
+    <br><br>
+    <button id="share">分享</button>
+    <br><br>
+    <input id="pageName" type="text" style="height:36px; width:96%" placeholder="pageName">
+    <input id="args" type="text" style="height:36px;width:96%" placeholder="args">
+    <button id="openNative">跳转原生</button>
+    <br><br>
+    <input id="nav_pageName" type="text" style="height:36px; width:96%" placeholder="nav_pageName">
+    <input id="nav_args" type="text" style="height:36px;width:96%" placeholder="nav_args">
+    <button id="nav">设置导航</button>
+    <br><br>
+    <button id="closeWin">关闭当前窗口</button>
+    <br><br>
+    <button id="openBrowser">打开外部浏览器</button>
+    <br><br>
+    <input id="keyInput" type="text" style="height:36px; width:96%" placeholder="请输入key">
+    <input id="valueInput" type="text" style="height:36px;width:96%" placeholder="请输入value">
+    <button id="webStorage">扩展Web存储</button>
+    <br><br>
+    <input id="getKeyInput" type="text" style="height:36px;width:96%" placeholder="请输入key">
+    <button id="getStorage">获取存储内容</button>
+    <br><br>
+    <input id="delKeyInput" type="text" style="height:36px;width:96%" placeholder="请输入key">
+    <button id="removeStorage">删除存储内容</button>
+    <br><br>
+    <button id="back">返回</button>
+
+    <div id="alert" style="display:none"> 
+        <img id="image" src="" alt="" width="100%" height="50%">
+    </div>
+
+    <script type="text/javascript" src="index.js"> </script>
+</body>
+</html>

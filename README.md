@@ -2,6 +2,15 @@
 
 
 ## Features
+<div>
+<img src="http://mianshizhijia.oss-cn-hangzhou.aliyuncs.com/resourse_image/nav.gif" width="20%"> 
+  
+<img src="http://mianshizhijia.oss-cn-hangzhou.aliyuncs.com/resourse_image/toNative.gif" width="20%">
+
+<img src="http://mianshizhijia.oss-cn-hangzhou.aliyuncs.com/resourse_image/storage.gif" width="20%">
+
+<img src="http://mianshizhijia.oss-cn-hangzhou.aliyuncs.com/resourse_image/other.gif" width="20%">
+</div>
 
 ## QA
 - [FastHybridKit是什么](#FastHybridKit是什么)
